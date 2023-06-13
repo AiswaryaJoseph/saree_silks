@@ -1,0 +1,81 @@
+<!-- <p>update-saree works!</p> -->
+<div class="container rounded">
+
+    <div class="row1 mt-5 mb-5 ">
+
+    <div class="row">
+        <h1 class="text-center mt-3 mb-3">Update Sarees</h1>
+
+
+    </div> <!--1st row end-->
+    <!-- <pre>
+{{saree | json}}
+    </pre> -->
+    <!-- 2nd row start -->
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 form p-3 border border-3 border-outline-light mb-3 ">
+            <div class="row"> <!--1st inner-row for image-->
+                <img height="500px" width="100px" src="{{saree.photo}}" alt="">
+            </div><!--1st inner row for image end-->
+
+
+
+
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+
+
+    <div class="row saree1 "> <!--3rd row for input start-->
+        <div class=" col-2 mt-2">
+            <label>Id</label>
+            <input [(ngModel)]="saree.id" name="sareeid" type="text" class="form-control" placeholder="Id">
+        </div>
+        <div class="col-2 mt-2">
+            <label>Model</label>
+            <input [(ngModel)]="saree.model" name="sareemodel" type="text" class="form-control" placeholder="Model">
+        </div>
+        <div class="col-2 mt-2">
+            <label>Color</label>
+            <input [(ngModel)]="saree.color" name="sareecolor" type="text" class="form-control" placeholder="Color">
+        </div>
+        <div class="col-2 mt-2">
+            <label>Price</label>
+
+            <input [(ngModel)]="saree.price" name="sareeprice" type="text" class="form-control" placeholder="Price">
+        </div>
+        <div class="col-2 mt-2">
+            <label>Material</label>
+            <input [(ngModel)]="saree.material" name="sareematerial" type="text" class="form-control"
+                placeholder="Material">
+        </div>
+        <div class="col-2 mt-2">
+            <label>Group</label>
+
+            <select [(ngModel)]="saree.groupId" name="sareegroup" name="" id="" class="form-control">
+                <option value="" selected hidden disabled>Group</option>
+                <option [value]="grp.id" *ngFor="let grp of group">{{grp.name}}</option>
+                <!-- <option value="">Cotton</option>
+        <option value="">Party-wear</option> -->
+            </select>
+        </div>
+
+    </div> <!--3rd row for input end-->
+
+    <!-- button -->
+  
+    <div class="row ">  <!-- 4th row start -->
+        <div class="col-4"></div>
+        <div class=" col-4 mt-5 mb-4">
+            <input (click)="updateContact()" type="submit" value="Update" class="btn btn-success">
+            <a routerLink="/" style="float:right;" class="btn btn-danger ">Close</a>
+        </div>
+        <div class="col-4"></div>
+    </div> <!--4th row end-->
+
+    
+
+</div>
+</div> <!--container end-->

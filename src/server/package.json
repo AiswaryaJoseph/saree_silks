@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for Saree Silks",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port3000"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Express"
+  ],
+  "author": "Aiswarya",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

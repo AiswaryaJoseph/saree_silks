@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Cabin+Sketch&family=Cookie&family=Courgette&family=Dancing+Script:wght@700&family=Dongle&family=Oleo+Script&family=Pacifico&family=Pirata+One&family=Rajdhani&family=Shrikhand&family=Tangerine:wght@700&family=Ubuntu&display=swap');
+body{
+    color:blueviolet
+}
+h1{
+    /* font-family: 'Pirata One', cursive; */
+    font-family: 'Courgette', cursive;
+    font-size: 50px;
+    color:blueviolet;
+    
+    /* font-family: 'Tangerine', cursive; */
+}
+h5{
+    /* font-family: 'Tangerine', cursive; */
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+    font-weight: 900;
+    color:blueviolet;
+}
+.carousel p{
+    color: blueviolet;
+}
+p{
+    /* font-family: 'Alfa Slab One', cursive; */
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Cookie', cursive;
+    font-size:30px;
+    /* color:blueviolet; */
+}
+ul li{
+       /* font-family: 'Tangerine', cursive; */
+       font-family: 'Oleo Script', cursive;
+ font-size: 18px;
+ /* color: blueviolet */
+}
+.inbut{
+    background-color: blueviolet;
+}
+h6{
+    color:blueviolet;
+        font-family: 'Bebas Neue', cursive;
+
+}
+h2{
+        font-family: 'Alfa Slab One', cursive;
+font-size: 20px;
+    color:blueviolet;
+}

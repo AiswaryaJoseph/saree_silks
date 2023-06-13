@@ -1,0 +1,51 @@
+<!-- <p>add-saree works!</p> -->
+<div class="container">
+    
+    <div class="row">
+        <h1 class="text-center mt-5 mb-5">Add Sarees</h1>
+        <p>A saree is a symbol of Indian culture and tradition. It is considered to be the most graceful and elegant
+            form of clothing for women in India. Wearing a saree makes a woman feel special and beautiful. A saree can
+            make any woman look like a queen. </p>
+           
+               
+           <!-- <pre>
+            {{saree | json}}
+           </pre> -->
+    </div> <!--1st row end-->
+<!-- 2nd row start -->
+<div class="row form_row mb-5">
+<div class="col-4"></div>
+<div class="col-4 form p-3 border border-3 border-outline-light mt-5 mb-5 ">
+    <div class="row"> <!--1st inner-row for image-->
+<img  src="https://www.shivkrupaenterprise.com/userdata/public/gfx/191064.jpg" alt="">
+    </div><!--1st inner row for image end-->
+    <div class="row "> <!--2st inner-row for input-->
+<div class="mt-2"><input [(ngModel)]="saree.id" name="id" type="text" class="form-control" placeholder="Id"></div>
+<div class="mt-2"><input [(ngModel)]="saree.model" name="model" type="text" class="form-control" placeholder="Model"></div>
+<div class="mt-2"><input [(ngModel)]="saree.color" name="color" type="text" class="form-control" placeholder="Color"></div>
+
+<div class="mt-2"><input [(ngModel)]="saree.photo" name="photo" type="text" class="form-control" placeholder="PhotoUrl"></div>
+
+
+<div class="mt-2"><input [(ngModel)]="saree.price" name="price" type="text" class="form-control" placeholder="Price"></div>
+<div class="mt-2"><input [(ngModel)]="saree.material" name="material" type="text" class="form-control" placeholder="Material"></div>
+<div class="mt-2">
+    <select [(ngModel)]="saree.groupId" name="groupId" id="" class="form-control">
+        <option  selected hidden disabled>{{saree.groupId}}</option>
+        <option [value]="group.id" *ngFor="let group of allGroups">{{group.name}}</option>
+            </select>
+</div>
+<!-- button -->
+<div class="mt-4">
+    <input type="submit" (click)="addSaree()" value="Create" class="btn btn-success">
+    <a routerLink="/" style="float:right;" class="btn btn-danger">Close</a>
+</div>
+
+
+    </div> <!--2st inner-row for input end-->
+</div>
+<div class="col-4"></div>
+</div><!--2nd row end-->
+
+
+</div> <!--container end-->

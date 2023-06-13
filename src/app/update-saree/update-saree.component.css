@@ -1,0 +1,12 @@
+.container{
+    background: linear-gradient(lightblue,blueviolet,rgb(144, 144, 218));
+    /* border-radius: 5%; */
+}
+.saree1{
+    display: flex;
+}
+label{
+    font-size: 18px;
+    color:white;
+    font-weight: 900;
+}

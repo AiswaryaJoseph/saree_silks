@@ -1,0 +1,90 @@
+{
+  "saree": [
+    {
+      "id": "s1",
+      "model": "Silk",
+      "color": "Red",
+      "photo": "https://cdn.shopify.com/s/files/1/1760/4649/products/kanjivaram-saree-crimson-red-kanjivaram-saree-silk-saree-online-25428278542529.jpg?v=1648509493",
+      "price": "12000",
+      "material": "Soft-silk",
+      "groupId": "1"
+    },
+    {
+      "id": "c1",
+      "model": "Printed",
+      "color": "Yellow",
+      "photo": "https://www.sajasajo.com/uploads/RKB4987_2.jpg",
+      "price": "3500",
+      "material": "Stiff",
+      "groupId": "2"
+    },
+    {
+      "id": "p1",
+      "model": "Heavy-work",
+      "color": "Green",
+      "photo": "https://www.mangaldeep.co.in/image/cache/data/green-color-vichitra-silk-party-wear-saree-43063-800x1100.jpg",
+      "price": "10000",
+      "material": "Net",
+      "groupId": "3"
+    },
+    {
+      "id": "s2",
+      "model": "Silk",
+      "color": "Pink",
+      "photo": "https://hashrail.sgp1.cdn.digitaloceanspaces.com/CND/Product/large/CS13_1.jpg",
+      "price": "8000",
+      "material": "Stiff",
+      "groupId": "1"
+    },
+    {
+      "id": "p2",
+      "model": "Heavy-work",
+      "color": "Blue-gold",
+      "photo": "https://3.imimg.com/data3/UL/HR/MY-9078939/gown-style-saree-500x500.jpg",
+      "price": "9000",
+      "material": "Chiffon",
+      "groupId": "3"
+    },
+    {
+      "groupId": "3",
+      "id": "p4",
+      "model": "Heavy-work",
+      "color": "Purple-gold",
+      "photo": "https://assets.panashindia.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/3/0/3045sr09-5169.jpg",
+      "price": "20000",
+      "material": "Chiffon"
+    },
+    {
+      "groupId": "1",
+      "id": "s3",
+      "model": "Silk",
+      "color": "Orange",
+      "photo": "https://cdn.shopify.com/s/files/1/1760/4649/products/tussar-silk-rust-orange-tussar-saree-silk-saree-online-30834621776065.jpg?v=1648605756",
+      "price": "12000",
+      "material": "Tussar"
+    },
+    {
+      "groupId": "1",
+      "id": "40",
+      "model": "Silk",
+      "color": "Light Purple",
+      "photo": "https://images.unsplash.com/photo-1641699862936-be9f49b1c38d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNhcmVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60",
+      "price": "30000",
+      "material": "silk"
+    }
+  ],
+  "group": [
+    {
+      "id": "1",
+      "name": "Kancheevaram"
+    },
+    {
+      "id": "2",
+      "name": "Cotton"
+    },
+    {
+      "id": "3",
+      "name": "Party_wear"
+    }
+  ]
+}

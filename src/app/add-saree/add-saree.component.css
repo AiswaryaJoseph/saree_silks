@@ -1,0 +1,13 @@
+.form{
+    border-radius: 20px;
+    background-color: black;
+    /* opacity:1; */
+}
+.form_row{
+    /* background-image: url('https://aalayaaonline.com/wp-content/uploads/2014/10/BlogImage3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* opacity:.65 */
+    background:radial-gradient(red,blueviolet,lightblue,blueviolet);
+    border-radius: 30%;
+}
